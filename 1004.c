@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//1003
+//1004
 int main(){
 	int a,b;
 	scanf("%d", &a);

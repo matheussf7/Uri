@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//1006
 int main(){
 	float a, b, c;
 	

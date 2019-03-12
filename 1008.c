@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//1008
 int main(){
 	int number, hours;
 	float salary;

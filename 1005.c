@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//1005
 int main(){
 	double a, b;
 	
