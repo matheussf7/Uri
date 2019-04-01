@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//1187
+//1188
 int main(){
     double m[12][12], soma = 0, soma1 = 0;
     char opt;
@@ -11,10 +11,10 @@ int main(){
     for(i=0;i<12;i++){
         for(j=0;j<12;j++){
             scanf("%lf", &m[i][j]);
-            if((i < j) && (j <=5) && (i<=5)){
+            if((i > j) && (j > 5) && (i > 5)){
                 soma = soma + m[i][j];
             }
-            if((i + j <= 10) && (j>5) && (i<=5)){
+            if((i + j >= 12) && (j<=5) && (i > 5)){
                 soma1 = soma1 + m[i][j];
             }
         }
